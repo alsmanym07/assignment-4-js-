@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main class="py-5">
+        <div class="container ">
+            <div class="w-75 mx-auto py-5 my-div mx-5 px-5">
+                <h1 class="text-center pb-2 text-info text-opacity-75">Smart Login System</h1>
+                <input id="nameId" type="text" class="form-control my-3" placeholder="Enter your Name">
+                <input id="emailId" type="email" class="form-control my-3" placeholder="Enter your Email">
+                <input id="passwordId" type="text" class="form-control" placeholder="Enter your Password">
+                <p class="alert text-center text-danger d-none my-0" id="allINputs">All inputs is required</p>
+                <p class="alert text-center text-danger d-none my-0" id="emailAlreadyExists">email already exists</p>
+                <p class="alert text-center text-success d-none my-0" id="successId">success</p>
+
+                <button id="btnId" class="btn btn-outline-info w-100 my-3 mt-4  text-opacity-75">Sign Up</button>
+                <p class="text-center text-white fw-semibold">Don’t have an account? <a href="./index.html"
+                        class="text-white">Signin</a></p>
+            </div>
+        </div>
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/signUp.js"></script>
+</body>
+
+</html>

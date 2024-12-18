@@ -1,0 +1,21 @@
+body {
+  background-color: #24353f;
+}
+
+main {
+  height: 100vh;
+}
+h1 {
+  font-family: sans-serif;
+}
+.my-div {
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.4);
+}
+.navbar {
+  background-color: #24353f !important ;
+  box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.4);
+}
+.navbar-collapse {
+  align-items: center;
+}
+
